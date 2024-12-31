@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+selenium_seo/__init__.py
+selenium_seo/selenium_seo.py
+selenium_seo.egg-info/PKG-INFO
+selenium_seo.egg-info/SOURCES.txt
+selenium_seo.egg-info/dependency_links.txt
+selenium_seo.egg-info/requires.txt
+selenium_seo.egg-info/top_level.txt
+tests/test_selenium_seo.py

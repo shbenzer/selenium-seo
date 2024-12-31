@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="selenium-seo",
-    version="1.0.0",
+    version="1.0.1",
     author="Simon Benzer",
     author_email="SimonHBenzer@gmail.com",
     description="selenium-seo extends Selenium by providing a keyword analyzer on a given webpage",
