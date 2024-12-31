@@ -1,0 +1,19 @@
+# Include all Python source files in the package
+recursive-include selenium-seo *.py
+
+# Include the README file (useful for PyPI)
+include README.md
+
+# Include the LICENSE file
+include LICENSE
+
+# Include any additional data files (e.g., images, config files)
+include docs/*.txt
+
+# Include test files
+recursive-include tests *.py
+
+# Exclude certain files (e.g., temporary or build files)
+exclude *.bak
+exclude *.pyc
+exclude .gitignore
