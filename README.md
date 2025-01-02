@@ -52,19 +52,19 @@ driver.quit()
 
 ## Available Methods
 
-process_keywords()
+```process_keywords()```
 Extracts keywords from the page and returns a sorted list of keywords with their frequency count.
 
-set_tags(tags)
+```set_tags(tags)```
 Sets the tags to be processed (default: ['p', 'h1', 'h2', 'h3', 'li']).
 
-get_tags()
+```get_tags()```
 Returns the current tags being processed.
 
-set_ignore_words(words)
+```set_ignore_words(words)```
 Sets the list of stop words to ignore during keyword extraction.
 
-get_ignore_words()
+```get_ignore_words()```
 Returns the current list of stop words being ignored.
 
 ## License
