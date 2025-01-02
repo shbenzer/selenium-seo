@@ -10,18 +10,18 @@ Extracts text from common HTML tags like `<p>, <h1>, <h2>, <h3>, and <li>.`
 
 ## Installation
 You can install selenium-seo via pip. First, make sure you have Selenium and BeautifulSoup installed, as they are required dependencies:
-```
+```bash
 pip install selenium beautifulsoup4
 ```
 Then, install selenium-seo:
-```
+```bash
 pip install selenium-seo
 ```
 
 ## Usage
 Here's a basic example of how to use the SeleniumSEO class to extract and analyze keywords from a webpage:
 
-```
+```python
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium_seo import SeleniumSEO
